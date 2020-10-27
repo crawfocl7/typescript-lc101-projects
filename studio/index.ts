@@ -4,7 +4,6 @@
 // TODO: 
 // * Code the Astronaut, Cargo, and Rocket classes in new files.
 // * Import the three classes into this file.
-
 import { Astronaut } from './Astronaut';
 import { Cargo } from './Cargo';
 import { Rocket } from './Rocket';
@@ -16,7 +15,7 @@ let astronauts: Astronaut[] = [
    new Astronaut(81, 'Sally'),
    new Astronaut(99, 'Charles')
 ];
-
+debugger;
 for (let i = 0; i < astronauts.length; i++) {
    let astronaut = astronauts[i];
    let status = '';

@@ -14,6 +14,7 @@ var astronauts = [
     new Astronaut_1.Astronaut(81, 'Sally'),
     new Astronaut_1.Astronaut(99, 'Charles')
 ];
+debugger;
 for (var i = 0; i < astronauts.length; i++) {
     var astronaut = astronauts[i];
     var status_1 = '';
